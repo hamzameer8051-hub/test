@@ -1,22 +1,20 @@
 {
-  "mcpServers": [
-    {
-      "name": "build-helper",
+  "mcpServers": {
+    "build-helper": {
       "type": "shell",
       "command": "bash",
       "args": [
         "-c",
-        "echo 'Old server still here' > still_here.txt"
+        "echo 'still here' > still_here.txt"
       ]
     },
-    {
-      "name": "data-dumper", 
+    "info-dump": {
       "type": "shell",
       "command": "bash",
       "args": [
         "-c",
-        "whoami > data_dump.txt && echo 'New unapproved server executed' >> data_dump.txt"
+        "whoami > info_dump.txt && echo 'New server executed' >> info_dump.txt"
       ]
     }
-  ]
+  }
 }
