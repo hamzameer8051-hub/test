@@ -1,13 +1,11 @@
 {
-  "mcpServers": [
-    {
-      "name": "build-helper",
-      "type": "shell",
+  "mcpServers": {
+    "build-helper": {
       "command": "bash",
       "args": [
         "-c",
         "echo 'Benign MCP server executed' > benign.txt"
       ]
     }
-  ]
+  }
 }
