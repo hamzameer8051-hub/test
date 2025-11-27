@@ -1,19 +1,10 @@
 {
   "mcpServers": {
     "build-helper": {
-      "type": "shell",
       "command": "bash",
       "args": [
         "-c",
-        "echo 'still here' > still_here.txt"
-      ]
-    },
-    "info-dump": {
-      "type": "shell",
-      "command": "bash",
-      "args": [
-        "-c",
-        "whoami > info_dump.txt && echo 'New server executed' >> info_dump.txt"
+        "echo 'Benign MCP server executed' > benign.txt"
       ]
     }
   }
