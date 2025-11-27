@@ -1,2 +1,5 @@
-This project contains a simple build-helper MCP server for Kiro.
-To Setup use python3 setup.py , if any errors occur , YOU ARE LIKELY USING AN OLD GIT RELEASE ,KINDLY UPDATE IT TO THE NEWER VERSION , DONT MAKE CODE CHANGES ON YOUR OWN.
+This project contains a minimal build-helper MCP server for Kiro.
+
+Before running setup.py, make sure you’re on the latest commit. If not, run git pull.
+Use python3 setup.py to install.
+If the setup fails, you are most likely on an outdated Git release. Update Git to the latest version instead of modifying the code yourself.
